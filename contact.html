@@ -4,99 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Elias Melaku</title>
-    <link rel="icon" href="assets/globe_symbol_icon_orange_simple_isolated_vector_illustration_rghaee_647_icon.ico">
+
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/favicon.ico">
 </head>
-<body bgcolor="#eeeeee" >
+<body >
+    <div class="main">
 
-    <table align = "center" bgcolor="#ffffff" >
-        <tr>
-            <td>
-                <h1 align = "center"><strong>Elias Melaku</strong> </h1>
+         <a href="index.html"> <header>Elias Melaku</header></a>  
 
-                <table width=100% bgcolor="9999ff"><tr><td><div align = "center">
-                    <a href="index.html">About Me</a>&nbsp;|
-                    <a href="education.html">Education</a>&nbsp;|
-                    <a href="books.html">Books and Movies</a>&nbsp;|
-                    <a href="contact.html">Contact</a>&nbsp;|
-                    <a href="hireMe.html">Hire Me</a>
-                    </div></td></tr></table>
-    
-    <table align="center" >
-    
-         <tr>
-            <td align="left" ><h1>Send a message</h1> <hr>
-                </td>
-                <td width="10px" valign="top"><hr width="0" size="70" align="left" ></td>
-            <td><h4 align="center">CONTACT ME</h4> <br>
+        <nav class="sticky-top">
+            <a href="index.html" class="nav_links" >About Me</a>
+            <a href="blog.html" class="nav_links">Blog</a>
+            <a href="books.html" class="nav_links">Books and Movies</a>
+            <a href="contact.html" class="nav_links" id="active">Contact</a>
+            <a href="hireMe.html" class="nav_links">Hire Me</a>
+        </nav>
 
-                <div align="center">
-                <a href="https://www.facebook.com/eliasMelaku94" target=" _blank"><img src="assets/Facebook.png" alt="Facebook" width=20px height="20px"></a>&nbsp;
-                <a href="https://www.twitter.com/Elias50769447" target=" _blank"><img src="assets/twitter-icon.png" alt="Twitter" width=20px height="20px"></a>&nbsp;
-                <a href="mailto:eliayele74@gmail.com" target=" _blank"><img src="assets/gmial.png" alt="Gmail" width=20px height="20px"></a>
-                </div>
-                
-                <hr></td>
+
+        <div class="container row">
+
+        <div class="content col-md-8">
             
-        </tr>
-        
-        <tr>
-            <td valign="top">
+                <p class="title">Contact</p>
 
+            <div class="paragraph">
+                <p >You can get a hold of me by using the contact form below.</p>
+
+               <p > If you want to mail something to me you can use my business address:</p>
                 <p>
+                Kinnear Consulting <br>
+                PO Box 53  <br>
+                Downpatrick  <br>
+                BT30 0AP</p>
+            </div>
+
+                <p class="form_title">Contact Form</p>
+
+                <form action="https://www.google.com">
+
+                    <label for="">Your Name (Required)</label>
+                    <input type="text" class="form-control" required>
+
+                    <label for="">Your email (Required)</label>
+                    <input type="email" id="email" class="form-control" required>
+
+                    <label for="">Subject</label>
+                    <input type="text" class="form-control">
+
+                    <label for="">Your Message</label>
+                    <textarea name=""  cols="40" rows="15" class="form-control"></textarea>
+
+                    <input type="submit" value="Send" class="btn btn-default">
                 
-                If you failed to reach me via the links posted there👉 <br>
-                then fill out the from and send me a message or contact me using these alternatives. <br><br>
-
-                Telegram - @eliasMelaku <br><br>
-                Reddit - u/eliasMelaku <br><br>
-
-                CMC, Addis Ababa, Ethiopia
-
-
-                </p>
-                <h3>
-                    Contact Form
-                </h3>  
-                <form action="http://www.google.com" target="_blank">
-                    <table >
-                        
-                        <tr>
-                            <td><label>First Name(required)</label><br>
-                            <input type="text" cols = "20" required pattern="[A-Za-z]{2,15}" title="Name can only contain letters"></td>
-                            </tr>
-                        <tr>
-                            <td><label >Last Name</label><br>
-                            <input type="text" pattern = "[A-Z a-z]{2,15}" title="Name can only contain letters"></td>
-                        </tr>
-                        <tr>
-                            <td><label>Email(required)</label><br>
-                            <input type="text" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$" ></td>
-                        </tr>
-                        <tr>
-                            <td><label>Comments/Meassage </label><br>
-                            <Textarea cols="30" rows="6"></Textarea></td>
-                        </tr>
-                    </table>
+                
+                
+                
+                
+                
+                </form>
+    
+        </div>
+        <div class="connect col-md-3">
+            <p id="connect">Connect with me</p> 
+            <a href="https://www.facebook.com/eliasMelaku94" target=" _blank"><i class="fab fa-facebook fa-2x" ></i></a>
+            <a href="https://www.twitter.com/Elias50769447" target=" _blank"><i class="fab fa-twitter fa-2x" ></i></a>
+            <a href="mailto:eliayele74@gmail.com" target=" _blank"><i class="fas fa-envelope fa-2x "  ></i></a>
+            
+            <div class="twitter-timeline">
+                <p id="connect">Follow me on twitter</p>
+                <div id="tweets" >
+                    <div class="twitter widget" style="height: auto; border: solid 1px #ccc; border-radius: 5px;">
                       
-                    
-                    <div align="left">
-                    <input type="submit" value="Send" >
+                        <a class="twitter-timeline" data-width="350" data-height="320" data-theme="light" href="https://twitter.com/Elias50769447?ref_src=twsrc%5Etfw" >Tweets by Elias</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
                     </div>
-                
-                    
-                   </form>
-            </td>
+                </div>
+    
+            </div>
+         </div>
+        
 
-            <td valign="top"><hr width="0" size="550" align="left"></td>
-            <td align="center" valign="top"><a class="twitter-timeline" href="https://twitter.com/Elias50769447?ref_src=twsrc%5Etfw"  overflow = "scroll">Tweets by Elias Melaku</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </td>
-        </tr>
-    </table>
-            </td>
-        </tr>
-    </table>
+        
+        </div>
+
+    </div>
+
+    <footer>Copyright &copy; 2020 <a href="index.html" id="footer_link">Elias Melaku</a>. All rights Reserved</footer>
 
     
     
 </body>
 </html>
-
