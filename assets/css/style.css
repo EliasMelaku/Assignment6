@@ -49,27 +49,29 @@ header {
   margin-bottom: 0.7rem;
 }
 
-nav {
-  height: 3rem;
+.navbar-custom {
   background-color: #2d2654;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 2;
 }
-.nav_links {
+
+.nav-link {
   font-family: "DroidSans";
   display: inline-block;
   font-size: 14px;
   color: #bbb;
   text-decoration: none;
-  padding: 0.6%;
+  padding: 0 1rem;
   padding-top: 1.7%;
+  margin-left: 0.5rem;
+  transition: all 0.4s;
 }
-.nav_links#active {
+.active,
+.navbar-brand,
+.theToggler,
+.nav-link:hover {
   color: white;
 }
-.nav_links:hover {
+.navbar-brand:hover,
+.active:hover {
   color: white;
 }
 .content {
@@ -230,6 +232,7 @@ footer {
 i {
   filter: grayscale();
   margin: 0 0.3rem;
+  transition: all 0.4s;
 }
 
 .fa-envelope {

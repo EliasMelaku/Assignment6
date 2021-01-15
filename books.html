@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/images/favicon.ico">
+    <script src="assets/js/jquery-3.4.1.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
 </head>
 <body  >
@@ -16,13 +18,30 @@
 
          <a href="index.html"> <header>Elias Melaku</header></a>  
 
-        <nav > 
-            
-                <a href="index.html" class="nav_links" >About Me</a>
-                <a href="blog.html" class="nav_links">Blog</a>
-                <a href="books.html" class="nav_links" id="active">Books and Movies</a>
-                <a href="contact.html" class="nav_links">Contact</a>
-                <a href="hireMe.html" class="nav_links">Hire Me</a>
+         <nav class="navbar navbar-expand-sm sticky-top navbar-custom py-3 ">
+            <a class="navbar-brand d-block d-sm-none" href="books.html">Books and Movies</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item ">
+                  <a class="nav-link  " href="index.html">About Me</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active d-none d-sm-inline" href="books.html">Books and Movies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>   
+                <li class="nav-item">
+                  <a class="nav-link" href="hireMe.html">Hire Me</a>
+                </li>   
+              </ul>
+            </div>  
         </nav>
 
         <div class="container row">
