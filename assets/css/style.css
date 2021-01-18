@@ -64,6 +64,9 @@ header {
   margin-left: 0.5rem;
   transition: all 0.4s;
 }
+.navbar-brand {
+  font-family: "DroidSans";
+}
 .active,
 .navbar-brand,
 .theToggler,
@@ -101,6 +104,16 @@ header {
   margin: 20px 1rem 40px 0;
   text-align: justify;
 }
+
+.bookImage {
+  border-radius: 2rem;
+  transition: all 0.6s;
+  margin: 0.5rem 0;
+}
+.bookImage:hover {
+  transform: scale(1.1);
+}
+
 .connect {
   margin-left: 1rem;
 }
@@ -212,6 +225,8 @@ input[type="submit"]:hover {
 .post:last-of-type {
   border: none;
 }
+
+/* The footer */
 
 footer {
   width: 955px;
