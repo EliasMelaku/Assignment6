@@ -48,7 +48,9 @@ header {
   padding-top: 1.5rem;
   margin-bottom: 0.7rem;
 }
-
+.blog-header {
+  font-family: "Droid Sans";
+}
 .navbar-custom {
   background-color: #2d2654;
 }
@@ -222,6 +224,7 @@ input[type="submit"]:hover {
 
 .post {
   border-bottom: 2px dotted #ccc;
+  margin-top: 1rem;
 }
 .post:last-of-type {
   border: none;
