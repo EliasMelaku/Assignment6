@@ -1,206 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog | Elias Melaku</title>
 
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/semantic/semantic.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/semantic/semantic.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/images/favicon.ico" />
     <script src="assets/js/jquery-3.4.1.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container main">
+      <a href="index.html"> <header>Elias Melaku</header></a>
 
-</head>
-<body >
-    <div class=" container main" >
+      <!-- The navigation -->
 
-         <a href="index.html"> <header>Elias Melaku</header></a>  
+      <nav class="navbar navbar-expand-sm sticky-top navbar-custom py-3">
+        <a class="navbar-brand d-block d-sm-none" href="index.html">Blog</a>
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="education.html">Education</a>
+            </li>
+            <li class="nav-item d-none d-sm-inline">
+              <a class="nav-link active" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="books.html">Books and Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hireMe.html">Hire Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-        <!-- The navigation -->
-        
-         <nav class="navbar navbar-expand-sm sticky-top navbar-custom py-3 ">
-            <a class="navbar-brand d-block d-sm-none" href="index.html">Blog</a>
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item ">
-                  <a class="nav-link  " href="index.html">About Me</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link " href="education.html">Education</a>
-                  </li>
-                <li class="nav-item d-none d-sm-inline">
-                  <a class="nav-link active " href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="books.html">Books and Movies</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>   
-                <li class="nav-item">
-                  <a class="nav-link" href="hireMe.html">Hire Me</a>
-                </li>   
-              </ul>
-            </div>  
-        </nav>
-
-        <div class="container row">
-
+      <div class="container row">
         <div class="content col-md-8">
-            <div class="post" >
-                <!-- <div class="title">The most recent blog 
-                    <p class="author">by ELIAS, March 29, 2020</p>
-                
+          <div class="custom-blog" id="single-blog">
+            <h1 class="blog-heading">My Blog</h1>
+            <p class="blog-description">
+              As I mentioned in my <a href="index.html">about page </a>i'm
+              interested in tech and computers in general. So I like to keep
+              myself updated with the latest in tech news as much as possible.
+              And from time to time I like to write about it and add my own take
+              to it. So I came up with this blog to compile my writings for my
+              visitors. I hope you like what you read.
+            </p>
+          </div>
+          <div class="post">
+            <div class="ui items">
+              <div class="item" id="single-blog">
+                <div class="image">
+                  <img src="assets/images/intelvsAmd.jpg" />
+                  <img
+                    src="assets/images/ryzen.jpg"
+                    class="d-none d-md-block secondary-image"
+                  />
+                  <img
+                    src="assets/images/intel.jpg"
+                    class="d-none d-md-block secondary-image last-image"
+                  />
                 </div>
-                  
-               
-                
-                <img src="assets/icon2.jpg" alt="my pic" style="max-width: 10rem;  margin: 1rem; ">
-                <div class="paragraph">
-                    <p>Hello there! I see you've found your way to my site.
-                        Feel free to look aroud and make yourself at home. 
-                        I'm Elias Melaku by the way, and I am a programmer or at least I'm trying to be one.
-                    </p>
-                    <p>
-                    I'd been interested in computers since I was 11. Not programming or developing 
-                    but just a general fascination towards them and how they operated. 
-                    By the time I was 17, I decided that I had to be a developer and I started 
-                    reading all about it. By the time I graduated from high school, I had 
-                    no doubts when picking fields. </p>
-                </div>
-            </div>
-            <div class="post" >
-                <div class="blog title">The next most recent blog
-                    <p class="author">by ELIAS, March 10, 2020</p>
-                </div>
-                <img src="assets/icon2.jpg" alt="my pic" style="max-width: 10rem;  margin: 1rem; ">
-                <div class="paragraph">
-                    <p>Hello there! I see you've found your way to my site.
-                        Feel free to look aroud and make yourself at home. 
-                        I'm Elias Melaku by the way, and I am a programmer or at least I'm trying to be one.
-                    </p>
-                    <p>
-                    I'd been interested in computers since I was 11. Not programming or developing 
-                    but just a general fascination towards them and how they operated. 
-                    By the time I was 17, I decided that I had to be a developer and I started 
-                    reading all about it. By the time I graduated from high school, I had 
-                    no doubts when picking fields. </p>
-                </div>
-            </div>
-            <div class="post" >
-                <div class="blog title">The oldest blog
-                    <p class="author">by ELIAS, March 10, 2020</p>
-                </div>
-                <img src="assets/icon2.jpg" alt="my pic" style="max-width: 10rem;  margin: 1rem; ">
-                <div class="paragraph">
-                    <p>Hello there! I see you've found your way to my site.
-                        Feel free to look aroud and make yourself at home. 
-                        I'm Elias Melaku by the way, and I am a programmer or at least I'm trying to be one.
-                    </p>
-                    <p>
-                    I'd been interested in computers since I was 11. Not programming or developing 
-                    but just a general fascination towards them and how they operated. 
-                    By the time I was 17, I decided that I had to be a developer and I started 
-                    reading all about it. By the time I graduated from high school, I had 
-                    no doubts when picking fields. </p>
-                </div> -->
-                <div class="ui items">
-                    <div class="item">
-                      <div class="image">
-                        <img src="assets/images/blog.jpg">
-                      </div>
-                      <div class="content">
-                        <a class="header " style="font-size: 2rem;">The most recent blog</a>
-                        <div class="meta">
-                          <span>This was my most recent blog.</span>
-                        </div>
-                        <div class="description">
-                          <p></p>
-                        </div>
-                        <div class="extra">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quaerat nobis, consequatur alias accusantium nihil totam autem reiciendis hic, eum perferendis ex ab quam eveniet modi beatae ipsam maiores harum!
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="image">
-                        <img src="assets/images/blog.jpg">
-                      </div>
-                      <div class="content">
-                        <a class="header " style="font-size: 2rem;">The Second ever blog</a>
-                        <div class="meta">
-                          <span>This was my second blog.</span>
-                        </div>
-                        <div class="description">
-                          <p></p>
-                        </div>
-                        <div class="extra">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quaerat nobis, consequatur alias accusantium nihil totam autem reiciendis hic, eum perferendis ex ab quam eveniet modi beatae ipsam maiores harum!
-                        </div>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="image">
-                        <img src="assets/images/blog.jpg">
-                      </div>
-                      <div class="content">
-                        <a class="header " style="font-size: 2rem;">The First ever blog</a>
-                        <div class="meta">
-                          <span>This was my first ever blog.</span>
-                        </div>
-                        <div class="description">
-                          <p></p>
-                        </div>
-                        <div class="extra">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quaerat nobis, consequatur alias accusantium nihil totam autem reiciendis hic, eum perferendis ex ab quam eveniet modi beatae ipsam maiores harum!
-                        </div>
-                      </div>
-                    </div>
-                    
+                <div class="content">
+                  <a class="miniBlogHeader"
+                    >Whats the best CPU out there right now?</a
+                  >
+                  <div class="meta">
+                    <span>By <strong>Elias Melaku</strong>, Jan 20, 2021</span>
                   </div>
-            </div>
-           
-            </div>
-    
-       
-
-
-
-        
-        <div class="connect col-md-3 " >
-            <p id="connect">Connect with me</p> 
-            <a href="https://www.facebook.com/eliasMelaku94" target=" _blank"><i class="fab fa-facebook fa-2x" ></i></a>
-            <a href="https://www.twitter.com/Elias50769447" target=" _blank"><i class="fab fa-twitter fa-2x" ></i></a>
-            <a href="mailto:eliayele74@gmail.com" target=" _blank"><i class="fas fa-envelope fa-2x "  ></i></a>
-
-           <div class="twitter-timeline">
-            <p id="connect">Follow me on twitter</p>
-            <div id="tweets" >
-                <div class="twitter widget" style="height: auto; border: solid 1px #ccc; border-radius: 5px;">
-                  
-                    <a class="twitter-timeline" data-width="250" data-height="320" data-theme="light" href="https://twitter.com/Elias50769447?ref_src=twsrc%5Etfw" >Tweets by Elias</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                  <div class="description">
+                    <p></p>
+                  </div>
+                  <div class="extra">
+                    <p>
+                      The world of CPUs has been notoriously busy in recent
+                      years making this decision really hard. With intel and
+                      AMD's battle for top CPU manufacturer getting more tense
+                      over 2020, it's far more difficult to choose a favorite.
+                      But in the end there's always a winner and unfortunately
+                      for intel, AMD takes the edge ever so slightly in this
+                      competition. But I'm only talking about best overall CPU
+                      as there could be others that perform better for much more
+                      specific tasks.
+                    </p>
+                    <p>
+                      And the winner is <strong>The AMD Ryzen 5 3600</strong>.
+                      Coming in at $199.99, this 6 core/12 thread desktop
+                      processor will get you through almost anything and won't
+                      bankrupt you in the process. Intel's Core i5-10400F comes
+                      in a close second only because it requires a Z-series
+                      mother board (more on these in the future) to use memory
+                      clocked in higher than DDR4-2666MHz.
+                    </p>
+                  </div>
                 </div>
+              </div>
+              <div class="item" id="single-blog">
+                <div class="image">
+                  <img src="assets/images/ssd1.jpg" />
+                  <img
+                    src="assets/images/ssd2.jpg"
+                    class="d-none d-md-block secondary-image"
+                  />
+                  <img
+                    src="assets/images/hddvssd.jpg"
+                    class="d-none d-md-block secondary-image last-image"
+                  />
+                </div>
+                <div class="content">
+                  <a class="miniBlogHeader">How do SSDs differ from HDDs?</a>
+                  <div class="meta">
+                    <span>By <strong>Elias Melaku</strong>, Dec 15, 2021</span>
+                  </div>
+                  <div class="description">
+                    <p></p>
+                  </div>
+                  <div class="extra">
+                    <p>
+                      Solid-state drives are names so, specifically because they
+                      don’t rely on moving parts or spinning disks like the
+                      traditional hard drives. Instead, data is saved to a pool
+                      of NAND flash, whick is made up of what are called
+                      floating gate transistors. These transistor are designed
+                      to retain their charge state even when not powered up.
+                      making them non-volatile memory.
+                    </p>
+                    <p>
+                      In NAND flash, a 0 means data is stored in a cell — it’s
+                      the opposite of how we typically think of a zero or one.
+                      NAND flash is organized in a grid. The entire grid layout
+                      is referred to as a block, while the individual rows that
+                      make up the grid are called a page. Common page sizes are
+                      2K, 4K, 8K, or 16K, with 128 to 256 pages per block. Block
+                      size therefore typically varies between 256KB and 4MB. One
+                      advantage of this system should be immediately obvious.
+                      Because SSDs have no moving parts, they can operate at
+                      speeds far above those of a typical HDD. Sometimes even
+                      upto 100x ...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="image">
+                  <img src="assets/images/hdd1.jpg" />
+                  <img
+                    src="assets/images/hdd2.jpg"
+                    class="d-none d-md-block secondary-image"
+                  />
+                  <img
+                    src="assets/images/hddInside.jpg"
+                    class="d-none d-md-block secondary-image last-image"
+                  />
+                </div>
+                <div class="content">
+                  <a class="miniBlogHeader">How do Hard Drives work?</a>
+                  <div class="meta">
+                    <span>By <strong>Elias Melaku</strong>, Dec 2, 2020</span>
+                  </div>
+                  <div class="description">
+                    <p></p>
+                  </div>
+                  <div class="extra">
+                    <p>
+                      A hard drive stores data on a series of spinning magnetic
+                      disks called platters and an actuator arm with read/write
+                      heads attached to it. This arm positions the read-write
+                      heads over the correct area of the drive to read or write
+                      information. Because the drive heads must align over an
+                      area of the disk in order to read or write data, and the
+                      disk is constantly spinning, there’s a delay before data
+                      can be accessed.
+                    </p>
+                    <p>
+                      The drive may need to read from multiple locations in
+                      order to launch a program or load a file, which means it
+                      may have to wait for the platters to spin into the proper
+                      position multiple times before it can complete the
+                      command. If a drive is asleep or in a low-power state, it
+                      can take several seconds more for the disk to spin up to
+                      full power and begin operating.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-
+          </div>
         </div>
-        </div>
 
+        <div class="connect col-md-3">
+          <p id="connect">Connect with me</p>
+          <a href="https://www.facebook.com/eliasMelaku94" target=" _blank"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="https://www.twitter.com/Elias50769447" target=" _blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="mailto:eliayele74@gmail.com" target=" _blank"
+            ><i class="fas fa-envelope fa-2x"></i
+          ></a>
+
+          <div class="twitter-timeline">
+            <p id="connect">Follow me on twitter</p>
+            <div id="tweets">
+              <div class="twitter widget twitter-widget">
+                <a
+                  class="twitter-timeline"
+                  data-width="250"
+                  data-height="320"
+                  data-theme="light"
+                  href="https://twitter.com/Elias50769447?ref_src=twsrc%5Etfw"
+                  >Tweets by Elias</a
+                >
+                <script
+                  async
+                  src="https://platform.twitter.com/widgets.js"
+                  charset="utf-8"
+                ></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-        
-
-
-    </div>
-
-    <footer>Copyright &copy; 2020 <a href="index.html" id="footer_link">Elias Melaku</a>. All rights Reserved</footer>
-
-    
-    
-</body>
+    <footer>
+      Copyright &copy; 2020
+      <a href="index.html" id="footer_link">Elias Melaku</a>. All rights
+      Reserved
+    </footer>
+  </body>
 </html>

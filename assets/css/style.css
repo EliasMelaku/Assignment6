@@ -25,6 +25,8 @@ p {
   color: #574d4d;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  line-height: 28px;
+  text-align: justify;
 }
 h2 {
   font-size: 1.25rem;
@@ -48,9 +50,7 @@ header {
   padding-top: 1.5rem;
   margin-bottom: 0.7rem;
 }
-.blog-header {
-  font-family: "Droid Sans";
-}
+
 .navbar-custom {
   background-color: #2d2654;
 }
@@ -108,6 +108,35 @@ header {
   text-align: justify;
 }
 
+.miniBlogHeader {
+  font-family: "DroidSerif";
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.custom-blog {
+  margin: 2rem 1rem;
+  padding: 0.5rem;
+}
+
+.blog-heading {
+  font-family: "DroidSerif";
+  border-bottom: dotted 2px #ccc;
+  margin-bottom: 1.5rem;
+}
+.secondary-image {
+  margin-top: 1.5rem;
+}
+.last-image {
+  margin-bottom: 2rem;
+}
+
+#single-blog {
+  border-bottom: dotted 2px gray;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
 .bookImage {
   border-radius: 2rem;
   transition: all 0.6s;
@@ -115,6 +144,7 @@ header {
 }
 .bookImage:hover {
   transform: scale(1.1);
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.575);
 }
 
 .connect {
@@ -123,6 +153,11 @@ header {
 .twitter-timeline {
   margin: 2rem 0 0 0;
   border-top: 2px dotted #ccc;
+}
+.twitter-widget {
+  height: auto;
+  border: solid 1px #ccc;
+  border-radius: 5px;
 }
 #tweets {
   margin: 0 0 2rem 1rem;

@@ -1,122 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | Elias Melaku</title>
 
-    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/images/favicon.ico" />
     <script src="assets/js/jquery-3.4.1.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</head>
-<body >
+  </head>
+  <body>
     <div class="main">
+      <a href="index.html"> <header>Elias Melaku</header></a>
 
-         <a href="index.html"> <header>Elias Melaku</header></a>  
+      <nav class="navbar navbar-expand-sm sticky-top navbar-custom py-3">
+        <a class="navbar-brand d-block d-sm-none" href="contact.html"
+          >Contact</a
+        >
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="books.html">Books and Movies</a>
+            </li>
+            <li class="nav-item d-none d-sm-inline">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hireMe.html">Hire Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-         <nav class="navbar navbar-expand-sm sticky-top navbar-custom py-3 ">
-            <a class="navbar-brand d-block d-sm-none" href="contact.html">Contact</a>
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item ">
-                  <a class="nav-link " href="index.html">About Me</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link " href="education.html">Education</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link " href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="books.html">Books and Movies</a>
-                </li>
-                <li class="nav-item d-none d-sm-inline">
-                  <a class="nav-link active  " href="contact.html">Contact</a>
-                </li>   
-                <li class="nav-item">
-                  <a class="nav-link" href="hireMe.html">Hire Me</a>
-                </li>   
-              </ul>
-            </div>  
-        </nav>
-
-
-        <div class="container row">
-
+      <div class="container row">
         <div class="content col-md-8">
-            
-                <p class="title">Contact</p>
+          <p class="title">Contact</p>
 
-            <div class="paragraph">
-                <p >You can get a hold of me by using the contact form below.</p>
+          <div class="paragraph">
+            <p>You can get a hold of me by using the contact form below.</p>
 
-               <p > If you want to mail something to me you can use my business address:</p>
-                <p>
-                Kinnear Consulting <br>
-                PO Box 53  <br>
-                Downpatrick  <br>
-                BT30 0AP</p>
-            </div>
+            <p>
+              If you want to mail something to me you can use my business
+              address:
+            </p>
+            <p>
+              Elias Melaku <br />
+              PO Box **** <br />
+              Addis Ababa, <br />
+              Ethiopia
+            </p>
+          </div>
 
-                <p class="form_title">Contact Form</p>
+          <p class="form_title">Contact Form</p>
 
-                <form action="https://www.google.com">
+          <form action="https://www.google.com">
+            <label for="">Your Name (Required)</label>
+            <input type="text" class="form-control" required />
 
-                    <label for="">Your Name (Required)</label>
-                    <input type="text" class="form-control" required>
+            <label for="">Your email (Required)</label>
+            <input type="email" id="email" class="form-control" required />
 
-                    <label for="">Your email (Required)</label>
-                    <input type="email" id="email" class="form-control" required>
+            <label for="">Subject</label>
+            <input type="text" class="form-control" />
 
-                    <label for="">Subject</label>
-                    <input type="text" class="form-control">
+            <label for="">Your Message</label>
+            <textarea
+              name=""
+              cols="40"
+              rows="15"
+              class="form-control"
+            ></textarea>
 
-                    <label for="">Your Message</label>
-                    <textarea name=""  cols="40" rows="15" class="form-control"></textarea>
-
-                    <input type="submit" value="Send" class="btn btn-default">
-                
-                
-                
-                
-                
-                
-                </form>
-    
+            <input type="submit" value="Send" class="btn btn-default" />
+          </form>
         </div>
         <div class="connect col-md-3">
-            <p id="connect">Connect with me</p> 
-            <a href="https://www.facebook.com/eliasMelaku94" target=" _blank"><i class="fab fa-facebook fa-2x" ></i></a>
-            <a href="https://www.twitter.com/Elias50769447" target=" _blank"><i class="fab fa-twitter fa-2x" ></i></a>
-            <a href="mailto:eliayele74@gmail.com" target=" _blank"><i class="fas fa-envelope fa-2x "  ></i></a>
-            
-            <div class="twitter-timeline">
-                <p id="connect">Follow me on twitter</p>
-                <div id="tweets" >
-                    <div class="twitter widget" style="height: auto; border: solid 1px #ccc; border-radius: 5px;">
-                      
-                        <a class="twitter-timeline" data-width="350" data-height="320" data-theme="light" href="https://twitter.com/Elias50769447?ref_src=twsrc%5Etfw" >Tweets by Elias</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-                    </div>
-                </div>
-    
+          <p id="connect">Connect with me</p>
+          <a href="https://www.facebook.com/eliasMelaku94" target=" _blank"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="https://www.twitter.com/Elias50769447" target=" _blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="mailto:eliayele74@gmail.com" target=" _blank"
+            ><i class="fas fa-envelope fa-2x"></i
+          ></a>
+
+          <div class="twitter-timeline">
+            <p id="connect">Follow me on twitter</p>
+            <div id="tweets">
+              <div class="twitter widget twitter-widget">
+                <a
+                  class="twitter-timeline"
+                  data-width="350"
+                  data-height="320"
+                  data-theme="light"
+                  href="https://twitter.com/Elias50769447?ref_src=twsrc%5Etfw"
+                  >Tweets by Elias</a
+                >
+                <script
+                  async
+                  src="https://platform.twitter.com/widgets.js"
+                  charset="utf-8"
+                ></script>
+              </div>
             </div>
-         </div>
-        
-
-        
+          </div>
         </div>
-
+      </div>
     </div>
 
-    <footer>Copyright &copy; 2020 <a href="index.html" id="footer_link">Elias Melaku</a>. All rights Reserved</footer>
-
-    
-    
-</body>
+    <footer>
+      Copyright &copy; 2020
+      <a href="index.html" id="footer_link">Elias Melaku</a>. All rights
+      Reserved
+    </footer>
+  </body>
 </html>
